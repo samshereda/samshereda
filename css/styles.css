@@ -4,15 +4,18 @@ html{
 
 *{
   text-align: center;
+  /* setting color and font of text across webpage*/
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #132743;
 }
 
 p, li {
+  /*making smaller text a little bigger*/
   font-size: large;
 }
 
 section{
+  /*adding more padding between sections*/
   padding: 15px;
 }
 
@@ -21,6 +24,7 @@ figure{
 }
 
 li{
+  /*work-around for centering lists*/
   text-align: left;
   margin-left: 40%
 }
