@@ -1,11 +1,23 @@
-.top_header {
-  background-color: salmon;
+html{
+  background-color: #ffcbcb;
 }
 
 *{
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: beige;
+  color: #132743;
+}
+
+p, li {
+  font-size: large;
+}
+
+section{
+  padding: 15px;
+}
+
+figure{
+  height: auto;
 }
 
 li{
