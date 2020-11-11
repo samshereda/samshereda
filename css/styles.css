@@ -1,12 +1,20 @@
 html{
-  background-color: #ffcbcb;
+  background-color: #ffdada;
 }
 
 *{
   text-align: center;
   /* setting color and font of text across webpage*/
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #132743;
+  
+}
+
+body {
+  margin: 0;
+}
+
+main{
+  color: #31326f;
 }
 
 p, li {
@@ -14,26 +22,93 @@ p, li {
   font-size: large;
 }
 
+header, footer{
+  color: #dbf6e9;
+  background-color: #31326f;
+}
+
+
+footer p{
+  margin: 0;
+  padding: 20px;
+}
+
+header h1{
+  margin: 0;
+  padding-top: 20px;
+}
+
+header nav{
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul{
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+header nav ul li a{
+  color: #dbf6e9;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a{
+  margin-right: 0;
+}
+
 section{
-  /*adding more padding between sections*/
-  padding: 15px;
+  padding: 15px 30px 15px 30px;
+  max-width: 800px
 }
 
 figure{
   height: auto;
 }
 
-li{
+img {
+  max-width: 400px;
+  object-fit: contain;
+}
+
+ul{
   /*work-around for centering lists*/
-  text-align: left;
-  margin-left: 40%
+  text-align: center;
+  list-style: inside;
+}
+
+ol{
+  list-style: inside;
 }
 
 /* link pseduo classes*/
-a:link {
-  color: #70adb5;
+main a:link {
+  color: #31326f;
 }
 
-a:visited {
-  color: #407088;
+main a:visited {
+  color: #9ddfd3;
+}
+
+
+
+
+
+@media only screen and (orientation: landscape){
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  header h1{
+    margin: 14px 0;
+    padding-top: 0;
+  }
+
+  header nav {
+    margin-top: 8px;
+  }
 }

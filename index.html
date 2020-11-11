@@ -15,18 +15,26 @@
   <!--Main header for the site-->
   <header>
     <h1>Sam Shereda's Portfolio Zone</h1>
-    <h2>Welcome</h2>
+    <nav>
+      <ul>
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
     <!--Intro Section-->
-    <section>
-      <figure><img src = "images/sam-with-gorilla.jpg" alt = "Sam with a gorilla" height="500"></figure>
+    <section id="intro">
+      <figure><img src = "images/sam-with-gorilla.jpg" alt = "Sam with a gorilla"></figure>
       <h3>Hi, my name is Sam.</h3>
       <p>I am a web developer located in Waltham, MA.</p>
+      
     </section>
     <hr>
     <!--About Section-->
-    <section>
+    <section id="about">
       <h3>About me</h3>
       <p>I have always been interested in creating software and websites, 
         and now I'm excited to be able to do it at Thinkful. Before finding Thinkful,
@@ -35,15 +43,25 @@
         to collaborate and create with other developers!</p>
       <p>Web development isn't the only thing I'm into though. I also like:</p>
       <!--Unordered list of interests-->
+      <div class = "centered-list">
       <ul>
         <li>Watching movies</li>
         <li>Going to the zoo</li>
         <li>Playing games with my friends</li>
       </ul>
+      </div>
+      
+    </section>
+    <hr>
+    <!--Projects Section-->
+    <sectionm id="projects">
+      <h3>Projects</h3>
+      <p>Rashomon is Better than Basketball</p>
+
     </section>
     <hr>
     <!--Contact Section-->
-    <section>
+    <section id="contact">
       <h3>Contact</h3>
       <!--Contact Form-->
       <form action="https://formspree.io/f/mzbkvboy" method="POST">
@@ -60,8 +78,9 @@
         <li><a href="https://github.com/samshereda">GitHub</a></li>
       </ol>
     </section>
-    <footer><p>© Sam Shereda 2020</p></footer>
+    
   </main>
+  <footer><p>© Sam Shereda 2020</p></footer>
   
 </body>
 </html>
