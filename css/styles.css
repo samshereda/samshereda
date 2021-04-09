@@ -96,7 +96,16 @@ main a:visited {
   color: #672877;
 }
 
+.project {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+}
 
+.project-element {
+  flex: 1;
+}
 
 
 
